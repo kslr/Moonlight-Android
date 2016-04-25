@@ -8,5 +8,7 @@ Android platform global night mode, is very simple, but powerful
 #Install / Download
 > It is added to the Google play
 
+Download and install from [FIR](http://fir.im/moo)
+
 #Licensing
 The source code is licensed under GPL v3. License is available [here](https://github.com/kslr/Moonlight-Android/blob/master/LICENSE.txt).

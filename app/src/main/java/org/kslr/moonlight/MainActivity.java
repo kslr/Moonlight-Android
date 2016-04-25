@@ -16,8 +16,6 @@ import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.google.android.gms.analytics.Tracker;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,9 +36,6 @@ public class MainActivity extends AppCompatActivity {
         mLayout = new TextView(getApplicationContext());
         // 初始化窗口服务
         mWindowManager = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
-        // 初始化Google统计
-        MyApplication application = (MyApplication) getApplication();
-        Tracker mTracker = application.getDefaultTracker();
         // 滑动条
         mSeekBar = (SeekBar) findViewById(R.id.seekBar);
         mSeekBar.setOnSeekBarChangeListener(seekListener);

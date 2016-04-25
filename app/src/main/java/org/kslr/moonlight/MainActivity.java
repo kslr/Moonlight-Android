@@ -118,21 +118,6 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-//    public boolean onTouchListener() {
-//        Window window  = getWindow();
-
-//        if(isFullScreen){
-//            //设置非全屏
-//            window.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-//
-//        }else{
-//            //设置全屏
-//            window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-//        }
-//        isFullScreen = !isFullScreen;
-//        return true;
-//    }
-
     private SeekBar.OnSeekBarChangeListener seekListener = new SeekBar.OnSeekBarChangeListener() {
         @Override
         public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {

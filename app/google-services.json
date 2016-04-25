@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "360323118733",
+    "project_id": "moonlight-6b6e8"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360323118733:android:95f4f9a122b66046",
+        "android_client_info": {
+          "package_name": "org.kslr.moonlight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkqFs5_xwONYMq9-DWCi0PdljMZfp6h0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-28741729-11"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

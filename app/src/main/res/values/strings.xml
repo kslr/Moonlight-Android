@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">月色</string>
+    <string name="app_button_off">停止</string>
+    <string name="app_buttion_on">启动</string>
+</resources>
